@@ -1,0 +1,13 @@
+{
+  "name": "ai-news-agent-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node demo/replay.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2",
+    "cheerio": "1.2.0"
+  }
+}
